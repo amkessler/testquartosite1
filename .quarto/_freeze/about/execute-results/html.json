@@ -1,0 +1,14 @@
+{
+  "hash": "d499f67b469d20b593ac0a9c1efdba55",
+  "result": {
+    "markdown": "---\ntitle: \"About\"\n---\n\n\nAbout this site\n\nThis page we'll use as an explainer to tell us about ourselves....\n\n\n\n\n\nwhat is a function??\n\nAll functions have the same structure:\n\n`myfunctionname <- function(argument1, argument2, … ){`\n\n`**allmycode goes here! with argument names in place of values!**`\n\n`return(object)`\n\n`}`\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# let's see a basic example of this:\n\ncube_me <- function(mynumber){\n  \n  result <- mynumber ^ 3\n    \n    return(result)\n}\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\ncube_me(5)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 125\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

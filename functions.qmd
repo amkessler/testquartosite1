@@ -1,0 +1,43 @@
+---
+title: "Intro to Functions Page"
+---
+
+About this site
+
+This page we'll use as an explainer to tell us about ourselves....
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+```
+
+what is a function??
+
+All functions have the same structure:
+
+`myfunctionname <- function(argument1, argument2, … ){`
+
+`**allmycode goes here! with argument names in place of values!**`
+
+`return(object)`
+
+`}`
+
+```{r}
+# let's see a basic example of this:
+
+cube_me <- function(mynumber){
+  
+  result <- mynumber ^ 3
+    
+    return(result)
+}
+```
+
+```{r}
+
+cube_me(5)
+
+```
