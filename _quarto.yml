@@ -5,7 +5,7 @@ project:
 website:
   title: "Test Site with Quarto"
   page-footer: 
-    left: "Copyright 2021, Norah Jones" 
+    left: "Copyright 2022, Aaron M. Kessler" 
     right: 
       - icon: github
         href: https://github.com/

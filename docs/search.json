@@ -16,7 +16,7 @@
   {
     "objectID": "functions.html",
     "href": "functions.html",
-    "title": "Intro to Functions Page",
+    "title": "Intro to Functions",
     "section": "",
     "text": "This page we’ll use as an explainer to tell us about ourselves….\nwhat is a function??\nAll functions have the same structure:\nmyfunctionname <- function(argument1, argument2, … ){\n**allmycode goes here! with argument names in place of values!**\nreturn(object)\n}\n\n# let's see a basic example of this:\n\ncube_me <- function(mynumber){\n  \n  result <- mynumber ^ 3\n    \n    return(result)\n}\n\n\ncube_me(5)\n\n[1] 125"
   }

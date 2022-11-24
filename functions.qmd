@@ -1,5 +1,5 @@
 ---
-title: "Intro to Functions Page"
+title: "Intro to Functions"
 ---
 
 About this site
